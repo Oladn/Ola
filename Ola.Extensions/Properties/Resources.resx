@@ -117,6 +117,33 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="DifferAction_Add" xml:space="preserve">
+    <value>新增了</value>
+  </data>
+  <data name="DifferAction_AddFormat" xml:space="preserve">
+    <value>”{0}“(”{1}“)</value>
+  </data>
+  <data name="DifferAction_Modify" xml:space="preserve">
+    <value>修改了</value>
+  </data>
+  <data name="DifferAction_ModifyFormat" xml:space="preserve">
+    <value>“{0}”由”{1}“修改为“{2}”</value>
+  </data>
+  <data name="DifferAction_Remove" xml:space="preserve">
+    <value>移除了</value>
+  </data>
+  <data name="DifferAction_RemoveFormat" xml:space="preserve">
+    <value>”{0}“(”{1}“)</value>
+  </data>
+  <data name="Differ_Duplicated_Differed" xml:space="preserve">
+    <value>你已经对比过一次新对象，不能重复对比变更对象！</value>
+  </data>
+  <data name="Differ_Duplicated_Initialized" xml:space="preserve">
+    <value>原有对象已经初始化，不能重复调用初始化方法！</value>
+  </data>
+  <data name="Differ_Uninitialized" xml:space="preserve">
+    <value>对象变更原始对象未初始化，请在修改对象时候先调用Init方法。</value>
+  </data>
   <data name="DirectoryNotFound" xml:space="preserve">
     <value>文件夹不存在！</value>
   </data>
@@ -129,6 +156,15 @@
   <data name="Email_EventType" xml:space="preserve">
     <value>电子邮件</value>
   </data>
+  <data name="EventMessage_NullMessage" xml:space="preserve">
+    <value>事件消息未设置！</value>
+  </data>
+  <data name="EventMessage_NullUserId" xml:space="preserve">
+    <value>事件消息的用户Id未设置，并且当前用户还未登录！</value>
+  </data>
+  <data name="EventType" xml:space="preserve">
+    <value>系统</value>
+  </data>
   <data name="FileNameIsNotGuidFormat" xml:space="preserve">
     <value>文件名称非法，必须以GUID加扩展名的格式！</value>
   </data>
@@ -138,6 +174,10 @@
   <data name="FormFileInvalid" xml:space="preserve">
     <value>未能获取表单文件实例或者文件长度为0！</value>
   </data>
+  <data name="Member" xml:space="preserve">
+    <value>普通会员</value>
+    <comment>最低权限角色</comment>
+  </data>
   <data name="MessageStatus_Completed" xml:space="preserve">
     <value>成功发送</value>
   </data>
@@ -146,6 +186,22 @@
   </data>
   <data name="MessageStatus_Pending" xml:space="preserve">
     <value>等待发送</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>所有者</value>
+    <comment>最高权限角色</comment>
+  </data>
+  <data name="PermissionSetCannotBeOwner" xml:space="preserve">
+    <value>管理员角色权限不能被设置！</value>
+  </data>
+  <data name="PermissionValue_Allow" xml:space="preserve">
+    <value>允许</value>
+  </data>
+  <data name="PermissionValue_Deny" xml:space="preserve">
+    <value>禁止</value>
+  </data>
+  <data name="PermissionValue_NotSet" xml:space="preserve">
+    <value>未设置</value>
   </data>
   <data name="StorageClearTaskExecutor_Description" xml:space="preserve">
     <value>定期清理存储文件夹和临时文件夹中得空文件夹或无效文件等</value>

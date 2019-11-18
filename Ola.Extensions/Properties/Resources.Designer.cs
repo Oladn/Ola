@@ -61,6 +61,87 @@ namespace Ola.Extensions.Properties {
         }
         
         /// <summary>
+        ///   查找类似 你已经对比过一次新对象，不能重复对比变更对象！ 的本地化字符串。
+        /// </summary>
+        internal static string Differ_Duplicated_Differed {
+            get {
+                return ResourceManager.GetString("Differ_Duplicated_Differed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 原有对象已经初始化，不能重复调用初始化方法！ 的本地化字符串。
+        /// </summary>
+        internal static string Differ_Duplicated_Initialized {
+            get {
+                return ResourceManager.GetString("Differ_Duplicated_Initialized", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 对象变更原始对象未初始化，请在修改对象时候先调用Init方法。 的本地化字符串。
+        /// </summary>
+        internal static string Differ_Uninitialized {
+            get {
+                return ResourceManager.GetString("Differ_Uninitialized", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 新增了 的本地化字符串。
+        /// </summary>
+        internal static string DifferAction_Add {
+            get {
+                return ResourceManager.GetString("DifferAction_Add", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 ”{0}“(”{1}“) 的本地化字符串。
+        /// </summary>
+        internal static string DifferAction_AddFormat {
+            get {
+                return ResourceManager.GetString("DifferAction_AddFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 修改了 的本地化字符串。
+        /// </summary>
+        internal static string DifferAction_Modify {
+            get {
+                return ResourceManager.GetString("DifferAction_Modify", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 “{0}”由”{1}“修改为“{2}” 的本地化字符串。
+        /// </summary>
+        internal static string DifferAction_ModifyFormat {
+            get {
+                return ResourceManager.GetString("DifferAction_ModifyFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 移除了 的本地化字符串。
+        /// </summary>
+        internal static string DifferAction_Remove {
+            get {
+                return ResourceManager.GetString("DifferAction_Remove", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 ”{0}“(”{1}“) 的本地化字符串。
+        /// </summary>
+        internal static string DifferAction_RemoveFormat {
+            get {
+                return ResourceManager.GetString("DifferAction_RemoveFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 文件夹不存在！ 的本地化字符串。
         /// </summary>
         internal static string DirectoryNotFound {
@@ -97,6 +178,33 @@ namespace Ola.Extensions.Properties {
         }
         
         /// <summary>
+        ///   查找类似 事件消息未设置！ 的本地化字符串。
+        /// </summary>
+        internal static string EventMessage_NullMessage {
+            get {
+                return ResourceManager.GetString("EventMessage_NullMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 事件消息的用户Id未设置，并且当前用户还未登录！ 的本地化字符串。
+        /// </summary>
+        internal static string EventMessage_NullUserId {
+            get {
+                return ResourceManager.GetString("EventMessage_NullUserId", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 系统 的本地化字符串。
+        /// </summary>
+        internal static string EventType {
+            get {
+                return ResourceManager.GetString("EventType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 文件名称非法，必须以GUID加扩展名的格式！ 的本地化字符串。
         /// </summary>
         internal static string FileNameIsNotGuidFormat {
@@ -124,6 +232,15 @@ namespace Ola.Extensions.Properties {
         }
         
         /// <summary>
+        ///   查找类似 普通会员 的本地化字符串。
+        /// </summary>
+        internal static string Member {
+            get {
+                return ResourceManager.GetString("Member", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 成功发送 的本地化字符串。
         /// </summary>
         internal static string MessageStatus_Completed {
@@ -147,6 +264,51 @@ namespace Ola.Extensions.Properties {
         internal static string MessageStatus_Pending {
             get {
                 return ResourceManager.GetString("MessageStatus_Pending", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 所有者 的本地化字符串。
+        /// </summary>
+        internal static string Owner {
+            get {
+                return ResourceManager.GetString("Owner", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 管理员角色权限不能被设置！ 的本地化字符串。
+        /// </summary>
+        internal static string PermissionSetCannotBeOwner {
+            get {
+                return ResourceManager.GetString("PermissionSetCannotBeOwner", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 允许 的本地化字符串。
+        /// </summary>
+        internal static string PermissionValue_Allow {
+            get {
+                return ResourceManager.GetString("PermissionValue_Allow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 禁止 的本地化字符串。
+        /// </summary>
+        internal static string PermissionValue_Deny {
+            get {
+                return ResourceManager.GetString("PermissionValue_Deny", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 未设置 的本地化字符串。
+        /// </summary>
+        internal static string PermissionValue_NotSet {
+            get {
+                return ResourceManager.GetString("PermissionValue_NotSet", resourceCulture);
             }
         }
         
